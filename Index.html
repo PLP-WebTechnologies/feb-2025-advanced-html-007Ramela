@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+  <section>
+    <h2>Roman Numeral List</h2>
+    <ol type="I">
+      <li>Introduction to HTML</li>
+      <li>Working with CSS</li>
+      <li>JavaScript Basics</li>
+      <li>Responsive Design</li>
+      <li>Deployment</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Image</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" 
+         alt="Nature Landscape from Pexels" 
+         width="600" />
+  </section>
+
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Main St</td>
+          <td>555-1234</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>456 Elm St</td>
+          <td>555-5678</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Johnson</td>
+          <td>789 Maple Ave</td>
+          <td>555-8765</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>James Brown</td>
+          <td>321 Oak Dr</td>
+          <td>555-4321</td>
+          <td>james@example.com</td>
+        </tr>
+        <tr>
+          <td>Linda White</td>
+          <td>654 Pine Ln</td>
+          <td>555-6789</td>
+          <td>linda@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@domain.com" required /><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="6" /><br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br><br>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select Country--</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+      </select><br><br>
+
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br><br>
+
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label>
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label><br><br>
+
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <section>
+    <h2>Listen to Nature</h2>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>Watch a Video</h2>
+    <video width="600" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+</body>
+</html>
